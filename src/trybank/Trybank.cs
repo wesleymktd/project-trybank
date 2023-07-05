@@ -8,7 +8,7 @@ public class Trybank
     //0 -> Número da conta
     //1 -> Agência
     //2 -> Senha
-    //3 -> Saldo
+    //3 -> Saldo  
     public int[,] Bank;
     public int registeredAccounts;
     private int maxAccounts = 50;
