@@ -1,13 +1,28 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+## 🧐 Sobre
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+<p align="left"> 
+O TryBank é um projeto de cunho acadêmico que se propõe a desenvolver um sistema bancário capaz de gerenciar contas, com a persistência dos dados realizada em um array na memória. Esta aplicação oferece as seguintes funcionalidades:
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+- Registro de novas contas.
+- Autenticação de usuários.
+- Encerramento de sessões de usuário.
+- Realização de depósitos.
+- Efetuação de saques.
+- Transferência de fundos entre contas.
+
+## ⚒ Instalando <a name = "installing"></a>
+
+```bash
+# Clone o projeto
+$ git clone git@github.com:wesleymktd/project-trybank.git
+# Acesse
+$ cd ./project-trybank/src
+# Instale as dependencias
+$ dotnet restore
+# Inicie o projeto
+
+```
+
+## Principais tecnologias utilizadas:
+- C#;
+- .NET
